@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ControlesBasicos">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/tvTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="30sp"
+            android:layout_gravity="center"
+            android:text="@string/tControles"
+            android:textColor="@color/teal_700"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/imageCBasics"
+            android:layout_width="wrap_content"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/imagen"
+            app:srcCompat="@mipmap/jovenes_1" />
+
+        <EditText
+            android:id="@+id/etNombre"
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="30sp"
+            android:ems="10"
+            android:hint="@string/nombre"
+            android:inputType="textPersonName"
+            android:paddingTop="0sp" />
+
+        <EditText
+            android:id="@+id/etApellido"
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="0sp"
+            android:layout_marginBottom="30sp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingTop="0sp"
+            android:hint="@string/apellido" />
+
+        <Button
+            android:id="@+id/btEnviarDatos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-48sp"
+            android:layout_marginStart="30sp"
+            android:layout_gravity="start"
+            android:backgroundTint="@color/black"
+            android:text="@string/enviarDatos" />
+
+        <Button
+            android:id="@+id/btRegresarMain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0sp"
+            android:layout_marginEnd="30sp"
+            android:layout_gravity="end"
+            android:text="@string/volver" />
+
+        <TextView
+            android:id="@+id/tvTitulo"
+            android:background="@color/main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="0sp"
+            android:paddingHorizontal="30sp"
+            android:paddingVertical="30sp"
+            android:layout_gravity="center"
+            android:text="@string/CBExplain"
+            android:textAlignment="textStart"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

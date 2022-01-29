@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:layout_marginBottom="30sp"
+            android:layout_gravity="center"
+            android:text="@string/titulo"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ptexto1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0sp"
+                android:layout_marginBottom="-24sp"
+                android:layout_marginStart="30sp"
+                android:layout_gravity="start"
+                android:text="@string/pNombre"
+                android:textSize="18sp"
+                android:textColor="@color/teal_700"/>
+
+            <EditText
+                android:id="@+id/etNombre"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="0sp"
+                android:layout_marginEnd="30sp"
+                android:layout_marginBottom="0sp"
+                android:ems="10"
+                android:hint="@string/nombre"
+                android:inputType="textPersonName"
+                android:paddingTop="0sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="30sp" >
+
+            <TextView
+                android:id="@+id/ptexto2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0sp"
+                android:layout_marginBottom="-24sp"
+                android:layout_marginStart="30sp"
+                android:layout_gravity="start"
+                android:text="@string/pEdad"
+                android:textSize="18sp"
+                android:textColor="@color/teal_700" />
+
+            <EditText
+                android:id="@+id/etEdad"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="0sp"
+                android:layout_marginEnd="30sp"
+                android:layout_marginBottom="0sp"
+                android:ems="10"
+                android:hint="@string/edad"
+                android:inputType="number"
+                android:paddingTop="0sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/siguiente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-48sp"
+            android:layout_marginStart="30sp"
+            android:layout_gravity="start"
+            android:text="@string/enviarDatos"
+            android:backgroundTint="@color/black"/>
+
+        <Button
+            android:id="@+id/controlsBasics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30sp"
+            android:layout_marginRight="30sp"
+            android:layout_gravity="end"
+            android:text="@string/controlBasics"
+            />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            app:srcCompat="@mipmap/jovenes_2"
+            android:contentDescription="@string/imagen" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

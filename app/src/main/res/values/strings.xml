@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">EntredosActivities</string>
+
+    <string name="titulo">DETERMINAR SI ES MAYOR DE EDAD</string>
+    <string name="tControles">Controles Basicos en Android Studio</string>
+
+    <string name="nombre">Escriba su nombre</string>
+    <string name="pNombre">nombre:</string>
+
+    <string name="edad">Escriba su edad</string>
+    <string name="pEdad">edad:"</string>
+
+    <string name="apellido">Escriba su apellido</string>
+
+    <string name="enviarDatos">ENVIAR DATOS</string>
+    <string name="volver">ANTERIOR</string>
+    <string name="controlBasics">CONTROLES BASIC</string>
+
+    <string name="imagen">Imagen</string>
+
+
+    <string name="CBExplain">En esta Activity se introducen los componentes
+        requeridos, siendo recolectados y mostrados en un mensaje que se
+        ejecuta al precionar el boton ENVIAR DATOS</string>
+</resources>
